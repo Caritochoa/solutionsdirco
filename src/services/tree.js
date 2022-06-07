@@ -11,8 +11,7 @@ class TreeNode {
 function buildDirTree(rootPath) {
   const root = new TreeNode(rootPath);
 
-  const stack = [root]; //add the root of the tree to the stack 
-
+  const stack = [root];
   while (stack.length) {
     const currentNode = stack.pop();
 

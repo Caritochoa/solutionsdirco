@@ -33,12 +33,12 @@ class Directory {
     //figure out how to delete from one place and create in the other 
     this.delete()
     this.create()
-
-
   }
 
   list() {
-
+    let list;
+    this.readInput();
+    return this.list;
   }
 
 }
