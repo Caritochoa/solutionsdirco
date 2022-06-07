@@ -2,7 +2,7 @@
 const { Directory } = require('../services/directory');
 
 
-module.exports.hi = async (event) => {
+module.exports.createDir = async (event) => {
 
   const directory = new Directory('fruits');
   directory.create();

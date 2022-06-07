@@ -6,8 +6,13 @@ Getting Started
 To run tests
 -npm run tests
 
+To invoke the lambdas 
+
+
 Architecture
 My desicion was to build 4 lambdas that consume from 2 services. a test module with a similar strucuture.
+the solution  to read the input from a file in the src/lambdas/common/mock.txt
+Then process it thro the lambda invokation individually. 
 
 Services
 I created to services in the Src/services here we have two services:
@@ -20,6 +25,5 @@ Lambdas:
 3. listDir: removes directory form the given path, consumes from Directory service.
 4. moveDir: removes directory form the given path, consumes Directory service.
 
-tests.
-tree.specs  and directory specs where the two services will be tested. 
+
 

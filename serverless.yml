@@ -67,10 +67,17 @@ functions:
     handler: handler.hello
  
   createDirs:
-    handler: src/lambdas/createDirs.hi
+    handler: src/lambdas/createDirs.createDir
 
   deleteDirs:
     handler: src/lambdas/deleteDirs.deleteDir
+
+  listDirs:
+    handler: src/lambdas/deleteDirs.listDir
+
+  moveDirs:
+    handler: src/lambdas/deleteDirs.moveDir
+ 
 
   
         

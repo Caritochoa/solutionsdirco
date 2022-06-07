@@ -2,7 +2,7 @@
 const { Directory } = require('../services/directory');
 
 
-module.exports.list = async (event) => {
+module.exports.listDir = async (event) => {
 
   const directory = new Directory('fruits');
   directory.list();

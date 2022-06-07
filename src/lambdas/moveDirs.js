@@ -5,7 +5,7 @@ const { Directory } = require('../services/directory');
 module.exports.move = async (event) => {
 
   const directory = new Directory('fruits');
-  directory.create();
+  directory.move();
 
   return {
     statusCode: 200,
